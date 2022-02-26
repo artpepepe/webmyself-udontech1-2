@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.nav {
+  padding: 20px;
+  background-color: rgb(12, 3, 54);
+  text-align: center;
+}
+.nav a {
+  text-decoration: none;
+  color: yellow;
+  margin: 10px;
+}
+.nav a:hover {
+  color: rgb(77, 73, 73);
+  cursor: pointer;
+}
+.content {
+  background-color: rgb(241, 239, 239);
+  width: 100%;
+  height: 94vh;
+}
+.about {
+  padding-top: 5cm;
+  padding-left: 15cm;
+}
+.about h1 {
+  color: rgb(156, 72, 204);
+  font-size: 100px;
+}
+.about span {
+  color: rgb(32, 42, 75);
+}
+.about h3 {
+  color: rgb(11, 22, 14);
+  font-size: 40px;
+  margin-top: 30px;
+  letter-spacing: 5px;
+}
+/* page1 */
+.content1 {
+  background-color: beige;
+  width: 100%;
+  height: 94vh;
+}
+.about1 {
+  display: flex;
+}
+.about1 img {
+  margin-top: 4cm;
+  margin-left: 5cm;
+  border-radius: 50%;
+}
+.text1 {
+  margin-top: 5cm;
+  margin-left: 2cm;
+}
+.text1 h1 {
+  font-size: 60px;
+  color: salmon;
+}
+.text1 p {
+  letter-spacing: 2px;
+  line-height: 1cm;
+  margin-top: 10px;
+}
+/* page2 */
+.text2 {
+  text-align: center;
+  padding-top: 100px;
+}
+.content2 {
+  background-color: beige;
+  height: 94vh;
+}
+.content2 h1 {
+  text-align: center;
+}
+.about2 {
+  margin-left: 10cm;
+  margin-top: 3cm;
+}
+/* page3 */
+.content3 {
+  background-color: beige;
+  height: 94vh;
+}
+.text3 {
+  text-align: center;
+}
+.about3 {
+  margin-left: 10cm;
+  margin-top: 3cm;
+}
+/* page4 */
+.content4 {
+  background-color: beige;
+  height: 94vh;
+}
+.content4 h1 {
+  text-align: center;
+}
+.about4 {
+  margin-left: 10cm;
+  margin-top: 3cm;
+}
+/* pageถ */
+.content5 {
+  background-color: beige;
+  height: 94vh;
+}
+.content5 h1 {
+  text-align: center;
+}
+.about5 {
+  margin-left: 10cm;
+  margin-top: 3cm;
+}
